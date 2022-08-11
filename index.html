@@ -5,43 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
   <body>
-    <div class="product_container">
-      <div class="product_card">
-        <div class="product_image">
-          <img
-            src="https://m.media-amazon.com/images/I/615ekapl+pL._SL1500_.jpg"
-            alt=""
-          />
+    <section class="home">
+      <nav class="navbar">
+        <div class="logo">
+          <span>Porto.</span>
         </div>
-        <div class="view_product">
-          <a href="#">View</a>
+        <ul class="navlist" id="navList">
+          <div class="cross"><i class="fa-solid fa-xmark" id="cross"></i></div>
+          <li class="navitems"><a href="#about">HOME</a></li>
+          <li class="navitems"><a href="#about">ABOUT</a></li>
+          <li class="navitems"><a href="#about">PRICE</a></li>
+          <li class="navitems"><a href="#about">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars" id="hamburger"></i>
         </div>
-      </div>
-      <div class="product_card">
-        <div class="product_image">
-          <img
-            src="https://m.media-amazon.com/images/I/71fkE5LBc+L._SL1500_.jpg"
-            alt=""
-          />
-        </div>
-        <div class="view_product">
-          <a href="#">View</a>
-        </div>
-      </div>
-      <div class="product_card">
-        <div class="product_image">
-          <img
-            src="https://m.media-amazon.com/images/I/61jMxzQcPjL._SL1500_.jpg"
-            alt=""
-          />
-        </div>
-        <div class="view_product">
-          <a href="#">View</a>
-        </div>
-      </div>
-    </div>
+      </nav>
+    </section>
+
+    <section class="about" id="about">
+      <h1>ABOUT</h1>
+    </section>
+
+    <script src="main.js"></script>
   </body>
 </html>
